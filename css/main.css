@@ -420,6 +420,99 @@ h2 {
   color: white;
   margin-bottom: 200px;
 }
-.coaches{
+
+.coaches {
   padding-top: 7rem;
+}
+
+.coaches__img img {
+  max-width: 100%;
+
+}
+
+.coaches__text {
+  padding: 2rem 3rem;
+}
+
+.coaches__text h3 {
+  padding: 1rem 0;
+}
+
+.coaches__items {
+  grid-template-columns: 1fr 1fr;
+}
+
+.coaches__item {
+  grid-template-columns: 1fr 1fr;
+}
+
+.coaches__item:nth-child(3) .coaches__img {
+  order: 2;
+}
+
+.coaches__item:nth-child(4) .coaches__img {
+  order: 2;
+}
+
+.coaches__subheading {
+  position: relative;
+  background: -webkit-gradient(left bottom,
+    right top,
+    color-stop(0%, #ff0055),
+    color-stop(100%, #ff6600));
+  background: -webkit-linear-gradient(45deg, #ff0055 0%, #ff6600 100%);
+  background: -o-linear-gradient(45deg, #ff0055 0%, #ff6600 100%);
+  background: -ms-linear-gradient(45deg, #ff0055 0%, #ff6600 100%);
+  background: linear-gradient(45deg, #ff0055 0%, #ff6600 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0055', endColorstr='#ff6600', GradientType=1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.line-left:before{
+  position: absolute;;
+  content:"";
+  width: 2.5rem;
+  height: 1px;
+  top:10px;
+  left:-70px;
+  background: -webkit-linear-gradient(45deg, #ff0055 0%, #ff6600 100%);
+  background: -o-linear-gradient(45deg, #ff0055 0%, #ff6600 100%);
+  background: -ms-linear-gradient(45deg, #ff0055 0%, #ff6600 100%);
+  background: linear-gradient(45deg, #ff0055 0%, #ff6600 100%);
+
+}
+.line-right:before{
+  position: absolute;;
+  content:"";
+  width: 2.5rem;
+  height: 1px;
+  top:10px;
+  right:-150px;
+  background: -webkit-linear-gradient(45deg, #ff0055 0%, #ff6600 100%);
+  background: -o-linear-gradient(45deg, #ff0055 0%, #ff6600 100%);
+  background: -ms-linear-gradient(45deg, #ff0055 0%, #ff6600 100%);
+  background: linear-gradient(45deg, #ff0055 0%, #ff6600 100%);
+
+}
+
+.coaches__contact {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.coaches__contact a {
+  display: block;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  font-size: 1.4rem;
+  line-height: 2.8;
+  color: white;
+  background: -webkit-linear-gradient(45deg, #ff0055 0%, #ff6600 100%);
+  background: -o-linear-gradient(45deg, #ff0055 0%, #ff6600 100%);
+  background: -ms-linear-gradient(45deg, #ff0055 0%, #ff6600 100%);
+  background: linear-gradient(45deg, #ff0055 0%, #ff6600 100%);
+
 }
