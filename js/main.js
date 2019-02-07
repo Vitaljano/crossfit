@@ -18,4 +18,13 @@ window.onscroll = function () {
     }
 
 }
-
+//slick slider
+$(document).ready(function(){
+    $('.feedback').slick({
+        accessibility: false,
+        arrows: false,
+        appendDots:$('.dots'),
+        dots: true,
+        // fade: true,
+    });
+  });
